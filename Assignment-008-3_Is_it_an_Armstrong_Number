@@ -1,0 +1,15 @@
+number_str = input("Enter a positive and integer number: ")
+if number_str.isdigit() :
+    number_list = list(number_str) 
+    number_real = int(number_str)
+    print(number_real)
+    x = 0
+    for i in number_list:
+        n = int(i)
+        x += n ** len(number_list)
+    if x == number_real:
+        print(number_real, "is an Armstrong number")
+    else:
+        print(number_real, "is not an Armstrong number")
+else:
+    print("It is an invalid entry. Don't use non-numeric, float, or negative values!")
