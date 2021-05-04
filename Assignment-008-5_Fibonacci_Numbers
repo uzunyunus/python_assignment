@@ -1,0 +1,8 @@
+num = int(input("Enter an integer number"))
+liste = [0, 1]
+y = 0
+while y < num :
+    x = liste[y] + liste[y + 1]
+    liste.append(x)
+    y += 1
+print(liste)
