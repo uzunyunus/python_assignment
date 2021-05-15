@@ -1,0 +1,12 @@
+sene = int(input("Enter a year"))
+
+def leap_year(sene) :
+    if sene % 100 == 0 :
+        print(sene, "is not a leap year.")
+    elif sene % 4 == 0 :
+        print(sene, "is a leap year.")
+    elif sene % 400 == 0 :
+        print(sene, "is a leap year.")
+    else :
+        print(sene, "is not a leap year.")
+leap_year(sene)
