@@ -1,0 +1,7 @@
+sentence = input("Enter a sentence: ")
+def letters_count(sentence) :
+    my_dict = {}
+    for i in set(sentence) :
+        my_dict.update({f"{i}" : sentence.count(i)})
+    print(my_dict)       
+(letters_count(sentence))
