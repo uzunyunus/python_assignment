@@ -4,4 +4,4 @@ def letters_count(sentence) :
     for i in set(sentence) :
         my_dict.update({f"{i}" : sentence.count(i)})
     print(my_dict)       
-(letters_count(sentence))
+letters_count(sentence)
